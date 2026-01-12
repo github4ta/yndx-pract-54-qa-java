@@ -19,7 +19,7 @@ public class SimpleCalculatorTest {
             "При вызове метода SimpleCalculator.subtract(int a, int b), " +
                     "где a = 10_000 и b = 100," +
                     "метод возвращает результат равный 9_900")
-    void subtract() {
+    void testSubtractOneHundredFromTenGrandsReturnsNineGrandsNineHundred() {
         int a = 10_000;
         int b = 100;
         int expectedResult = 9_900;
