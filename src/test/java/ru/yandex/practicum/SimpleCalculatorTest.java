@@ -10,7 +10,7 @@ public class SimpleCalculatorTest {
     private SimpleCalculator simpleCalculator;
 
     @BeforeEach
-    void init(){
+    void init() {
         simpleCalculator = new SimpleCalculator();
     }
 
@@ -24,7 +24,7 @@ public class SimpleCalculatorTest {
         int b = 100;
         int expectedResult = 9_900;
 
-        int actualResult = simpleCalculator.subtract(a,b);
+        int actualResult = simpleCalculator.subtract(a, b);
 
         assertEquals(expectedResult, actualResult);
     }
